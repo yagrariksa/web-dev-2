@@ -152,8 +152,8 @@ body {
 }
 .content img {
     z-index: 6;
-    height: 300%;
-    transform: translateY(-30%);
+    width: 300%;
+    transition: all 1s ease-in;
 }
 .button {
     position: absolute;
@@ -176,69 +176,35 @@ body {
 .btn-right {
     left: 55%;
 }
-@keyframes slide1 {
-    from{
-
-    }to{
+.slide1 {
         transform: 
         translateY(-30%)
         translateX(0%);
-    }
 }
-@keyframes slide2 {
-    from{
-        transform: 
-        translateY(-30%)
-        translateX(0%);
-    }to{
+.slide2 {
         transform: 
         translateY(-50%)
         translateX(0%);
-    }
 }
-@keyframes slide3 {
-    from{
-        transform: 
-        translateY(-50%)
-        translateX(0%);
-    }to{
+.slide3 {
         transform: 
         translateY(-50%)
         translateX(-30%);
-    }
 }
-@keyframes slide4 {
-    from{
-        transform: 
-        translateY(-50%)
-        translateX(-30%);
-    }to{
+.slide4 {
         transform: 
         translateY(-30%)
         translateX(-30%);
-    }
 }
-@keyframes slide5 {
-    from{
-        transform: 
-        translateY(-30%)
-        translateX(-30%);
-    }to{
+.slide5 {
         transform: 
         translateY(-30%)
         translateX(-59%);
-    }
 }
-@keyframes slide6 {
-    from{
-        transform: 
-        translateY(-30%)
-        translateX(-59%);
-    }to{
+.slide6 {
         transform: 
         translateY(-50%)
         translateX(-59%);
-    }
 }
 
 

@@ -32,6 +32,10 @@ document.documentElement.addEventListener('click', function(e){
             if(p.dataset.aksi<=targetAksi){
                 p.classList.add('active')
             };
+        for(i=1;i<=6;i++){
+            document.querySelector('.eiyo').classList.remove(`slide${i}`);
+        }
+        document.querySelector('.eiyo').classList.add(`slide${targetAksi}`);
         });
         document.querySelector('.progress div').style.transform = `translateX(-${ukuran}%)`;
         // e.target.classList.toggle('active');
